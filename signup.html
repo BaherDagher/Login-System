@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <form id="signUpForm">
+        <section>
+            <div class="container pt-5">
+                <div class="form-box mx-auto text-center p-5 ">
+                    <h1>Smart Login System</h1>
+                    <input type="text" class="form-control " id="RegUserName" placeholder="Enter Your Name">
+                    <span class="text-danger d-none ">Minimum 3 Characters & Must Start with Char</span>
+                    <input type="email" class="form-control mt-3" id="RegUserEmail" placeholder="Enter Your Email">
+                    <span class="text-danger d-none">Email is invalid</span>
+                    <span class="text-danger d-none">Email is already registered</span>
+                    <input type="password" class="form-control mt-3" id="RegUserPassword"
+                        placeholder="Enter Your Password">
+                    <span class="text-danger d-none">Minimum 4 characters, at least one upper case one lower case , one
+                        number and one special character</span>
+                    <button type="button" class="mx-auto btn btn-submit " id="SignUpBtn">Sign Up</button>
+                    <p class="text-white mt-4">You have an account? <a class="text-white" href="index.html">Sign In</a>
+                    </p>
+                    <div id="signUp"
+                        class=" d-none success-adding pb-3 position-fixed z-3 d-flex justify-content-center align-content-center flex-column text-center">
+                        <img src="images/PopUp/success.png" alt="" class=" mx-auto">
+                        <h2 class="fw-normal">Thank You!</h2>
+                        <p>Sign Up Success!</p>
+                        <button type="button" class="mx-auto btn " id="signUpOK" >OK</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </form>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

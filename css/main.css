@@ -1,0 +1,102 @@
+section {
+    background-color: #24353F;
+    height: 100vh;
+}
+
+.form-box {
+    width: 65%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+
+
+    h1 {
+        color: #17a2b8;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    }
+
+    input,
+    textarea {
+        background-color: transparent !important;
+        color: #fff !important;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: rgb(182, 182, 182) !important;
+    }
+
+    .form-control:focus {
+        border-color: #17a2b8;
+        box-shadow: none;
+    }
+
+    .btn-submit {
+        color: #17a2b8;
+        border-color: #17a2b8;
+        width: 100%;
+        margin-top: 15px;
+
+        &:hover {
+            background-color: #17a2b8;
+            color: white;
+        }
+    }
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+
+        }
+    }
+}
+
+
+.success-adding {
+    width: 325px;
+    background: #fff;
+    border-radius: 8px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+
+    img {
+        width: 22%;
+        margin-top: -35px;
+        border-radius: 50%;
+
+    }
+
+    button {
+        width: 20%;
+        background-color: #008040;
+        color: white;
+
+        &:hover {
+            background-color: rgb(8, 69, 12);
+            color: white;
+        }
+    }
+
+}
+
+.home {
+    margin-top: 18%;
+}
+
+.head {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+
+    .inner {
+        width: 80%;
+    }
+
+    #LogoutBtn {
+        justify-self: flex-end;
+        width: 100px;
+    }
+}
